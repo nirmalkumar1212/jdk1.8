@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="Browser" value="ie"/>
+  <test name="Test(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="Timesheet.Timesheet">
+        <methods>
+          <include name="afterTest"/>
+          <include name="launch"/>
+          <include name="launch"/>
+          <include name="Submit"/>
+        </methods>
+      </class> <!-- Timesheet.Timesheet -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test1(failed)">
+    <parameter name="Browser" value="ie"/>
+    <classes>
+      <class name="Timesheet.Timesheet">
+        <methods>
+          <include name="afterTest"/>
+          <include name="launch"/>
+          <include name="launch"/>
+          <include name="Submit"/>
+        </methods>
+      </class> <!-- Timesheet.Timesheet -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
